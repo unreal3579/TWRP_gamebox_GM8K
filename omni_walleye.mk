@@ -8,14 +8,14 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common Twrp stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from walleye device
 $(call inherit-product, device/google/walleye/device.mk)
 
 PRODUCT_DEVICE := walleye
-PRODUCT_NAME := omni_walleye
+PRODUCT_NAME := twrp_walleye
 PRODUCT_BRAND := google
 PRODUCT_MODEL := MBOX
 PRODUCT_MANUFACTURER := google
