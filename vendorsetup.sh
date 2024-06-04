@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo twrp_walleye-user
-add_lunch_combo twrp_walleye-userdebug
-add_lunch_combo twrp_walleye-eng
+add_lunch_combo twrp_GM8K-user
+add_lunch_combo twrp_GM8K-userdebug
+add_lunch_combo twrp_GM8K-eng
