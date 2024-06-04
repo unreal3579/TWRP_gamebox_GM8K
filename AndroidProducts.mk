@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_walleye.mk
+    $(LOCAL_DIR)/twrp_GM8K.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_walleye-user \
-    twrp_walleye-userdebug \
-    twrp_walleye-eng
+    twrp_GM8K-user \
+    twrp_GM8K-userdebug \
+    twrp_GM8K-eng
