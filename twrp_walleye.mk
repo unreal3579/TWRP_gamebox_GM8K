@@ -25,6 +25,6 @@ PRODUCT_MANUFACTURER := google
 PRODUCT_GMS_CLIENTID_BASE := android-google
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="eros_p1-userdebug 10 QP1A.191105.004 eng.cmj.20240417.085715 test-keys"
+    PRIVATE_BUILD_DESC="twrp_walleye-userdebug 10 QP1A.191105.004 eng.cmj.20240417.085715 test-keys"
 
 BUILD_FINGERPRINT := google/walleye/walleye:10/QP1A.191105.004/5908170:user/release-keys
