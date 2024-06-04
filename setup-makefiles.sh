@@ -8,8 +8,8 @@
 
 set -e
 
-DEVICE=walleye
-VENDOR=google
+DEVICE=GM8K
+VENDOR=gamebox
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
