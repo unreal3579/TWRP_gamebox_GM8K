@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_walleye.mk
+    $(LOCAL_DIR)/twrp_walleye.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_walleye-user \
-    omni_walleye-userdebug \
-    omni_walleye-eng
+    twrp_walleye-user \
+    twrp_walleye-userdebug \
+    twrp_walleye-eng
