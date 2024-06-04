@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/google/walleye
+DEVICE_PATH := device/gamebox/GM8K
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -42,8 +42,8 @@ BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
-TARGET_KERNEL_CONFIG := walleye_defconfig
-TARGET_KERNEL_SOURCE := kernel/google/walleye
+TARGET_KERNEL_CONFIG := GM8K_defconfig
+TARGET_KERNEL_SOURCE := kernel/gamebox/GM8K
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
@@ -64,7 +64,7 @@ BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
 BOARD_SUPER_PARTITION_SIZE := 9126805504 # TODO: Fix hardcoded value
-BOARD_SUPER_PARTITION_GROUPS := google_dynamic_partitions
+BOARD_SUPER_PARTITION_GROUPS := gamebox_dynamic_partitions
 BOARD_GOOGLE_DYNAMIC_PARTITIONS_PARTITION_LIST := system vendor product
 BOARD_GOOGLE_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
 
