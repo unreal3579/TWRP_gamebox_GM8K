@@ -11,8 +11,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Twrp stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/root,recovery/root)
-
 # Inherit from walleye device
 $(call inherit-product, device/google/walleye/device.mk)
 
